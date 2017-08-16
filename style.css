@@ -102,3 +102,7 @@ content: '\f1c4';
 .caption h3 {
   font-size: 1.75rem;
 }
+
+.roof form {
+  width: 250px;
+}
