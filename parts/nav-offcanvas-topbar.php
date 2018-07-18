@@ -1,7 +1,7 @@
 <!-- By default, this menu will use off-canvas for small
 	 and a topbar for medium-up -->
 <div class="roof show-for-large">	 
-<?php get_template_part( 'parts/explore', 'ksas' ); ?>
+	<?php get_template_part( 'parts/explore', 'ksas' ); ?>
 </div>
 
 <div class="top-bar hide-for-print" id="top-bar-menu">
@@ -36,13 +36,15 @@
 		</div>
 
 	</div>
-	<div class="top-bar-right show-for-large">
-		<?php joints_top_nav_nodropdown(); ?>
-	</div>
-	<div class="top-bar-left hide-for-large mobile-menu">
-		<ul class="menu">
-			<li><button class="menu-icon" type="button" data-toggle="off-canvas"></button></li>
-			<li><a data-toggle="off-canvas"><?php _e( 'Menu', 'jointswp' ); ?></a></li>
-		</ul>
+	<div class="row">
+		<div class="top-bar-left show-for-large">
+			<?php joints_top_nav_nodropdown(); ?>
+		</div>
+		<div class="top-bar-left hide-for-large mobile-menu">
+			<ul class="menu">
+				<li><button class="menu-icon" type="button" data-toggle="off-canvas"></button></li>
+				<li><a data-toggle="off-canvas"><?php _e( 'Menu', 'jointswp' ); ?></a></li>
+			</ul>
+		</div>
 	</div>
 </div>
