@@ -4,7 +4,7 @@
 
 		<div id="inner-content" class="row">
 	
-			<main id="main" class="small-12 large-9 large-push-1 columns" role="main">
+			<main id="main" class="small-12 large-9 columns" role="main">
 				<h1 class="page-title">
 					<?php _e('Search Results for:', 'jointstheme'); ?> 
 					<strong><?php echo esc_attr(get_search_query()); ?></strong>
